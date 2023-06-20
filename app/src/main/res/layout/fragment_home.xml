@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1E1E1E">
+
+    <ImageView
+        android:id="@+id/football_button"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:src="@drawable/foot" />
+
+    <ImageView
+        android:id="@+id/hockey_button"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:src="@drawable/hoc" />
+
+    <ImageView
+        android:id="@+id/basketball_button"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:src="@drawable/bck" />
+
+</LinearLayout>
